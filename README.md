@@ -1,70 +1,58 @@
-# Getting Started with Create React App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# Project Documentation
 
-## Available Scripts
+This project is a React web application that follows the atomic design folder structure. It uses React.js with Create React App, Styled Components for styling, React Icons for icons, React Router Dom for routing, and has unit testing implemented. The app is also responsive, utilizing grid and flexbox, and has clean code.
 
-In the project directory, you can run:
+## Folders' Structure
 
-### `npm start`
+The app's folder structure follows the atomic design pattern, with components organized into atoms, molecules, organisms, templates, and screens.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+src/
+├── components/
+│   ├── atoms/ (small, reusable components)
+│   ├── molecules/ (components that combine atoms)
+│   ├── organisms/ (components that combine molecules)
+├── screens/ (the top-level views, components that combine organisms)
+│   ├── Posts/
+│   ├── User/
+│   ├── PostDetails/
+├── routes/   
+├── utils/
+    ├── APIs 
+    ├── theme
 
-### `npm test`
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Libraries and Frameworks
 
-### `npm run build`
+1- React.js: A popular JavaScript library for building user interfaces.
+2- Create React App: A tool to set up a modern web app by running one command.
+3- Styled Components: A CSS-in-JS library that allows you to write CSS directly in your JavaScript files.
+4- React Icons: A collection of icons for React projects.
+5- React Router Dom: A library that allows for easy routing between different pages of the app.
+6- Jest: A JavaScript testing framework used for unit testing.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## Responsive Design
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+The app is designed to be fully responsive and uses both grid and flexbox to achieve this. Media queries are used to adjust the layout for different screen sizes.
 
-### `npm run eject`
+## Clean Code
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+The app is built with clean and maintainable code, with a focus on readability and reusability. Code is organized into small and reusable components, and is well-documented and tested.
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## Running the Project
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+To run the project, follow these steps:
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+1- Clone the repository to your local machine.
+2- Install the necessary dependencies by running npm install.
+3- Start the development server by running npm start.
+4- Open your browser and navigate to http://localhost:3000/ to view the app.
+5- To run the unit tests, run npm test in the terminal.
 
-## Learn More
+## Conclusion
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+1- This React app follows the atomic design folder structure and uses various libraries and frameworks to achieve responsive design, clean code, and unit testing. With its well-organized components and clean code, it is easy to maintain and update.
 
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+2- For Testing, I didn't test organisms or screens, as I tested the components that combine them already, and I added tests for the organisms that doesn't have any of the molecules or atoms.
