@@ -8,28 +8,18 @@ This project is a React web application that follows the atomic design folder st
 The app's folder structure follows the atomic design pattern, with components organized into atoms, molecules, organisms, templates, and screens.
 
 
-src/
-├── components/
-│   ├── atoms/ (small, reusable components)
-│   ├── molecules/ (components that combine atoms)
-│   ├── organisms/ (components that combine molecules)
-├── screens/ (the top-level views, components that combine organisms)
-│   ├── Posts/
-│   ├── User/
-│   ├── PostDetails/
-├── routes/   
-├── utils/
-    ├── APIs 
-    ├── theme
-
-
 ## Libraries and Frameworks
 
 1- React.js: A popular JavaScript library for building user interfaces.
+
 2- Create React App: A tool to set up a modern web app by running one command.
+
 3- Styled Components: A CSS-in-JS library that allows you to write CSS directly in your JavaScript files.
+
 4- React Icons: A collection of icons for React projects.
+
 5- React Router Dom: A library that allows for easy routing between different pages of the app.
+
 6- Jest: A JavaScript testing framework used for unit testing.
 
 
@@ -46,9 +36,13 @@ The app is built with clean and maintainable code, with a focus on readability a
 To run the project, follow these steps:
 
 1- Clone the repository to your local machine.
+
 2- Install the necessary dependencies by running npm install.
+
 3- Start the development server by running npm start.
+
 4- Open your browser and navigate to http://localhost:3000/ to view the app.
+
 5- To run the unit tests, run npm test in the terminal.
 
 ## Conclusion
