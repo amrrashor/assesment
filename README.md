@@ -5,7 +5,7 @@ This project is a React web application that follows the atomic design folder st
 
 ## Folders' Structure
 
-The app's folder structure follows the atomic design pattern, with components organized into atoms, molecules, organisms, templates, and screens.
+The app's folder structure follows the atomic design pattern, with components organized into atoms, molecules, organisms, and screens.
 
 
 ## Libraries and Frameworks
