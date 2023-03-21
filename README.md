@@ -47,6 +47,6 @@ To run the project, follow these steps:
 
 ## Conclusion
 
-1- This React app follows the atomic design folder structure and uses various libraries and frameworks to achieve responsive design, clean code, and unit testing. With its well-organized components and clean code, it is easy to maintain and update.
+1- This React app follows the atomic design folder structure and uses vanilla solutions to achieve responsive design, clean code, and unit testing. With its well-organized components and clean code, it is easy to maintain and update.
 
 2- For Testing, I didn't test organisms or screens, as I tested the components that combine them already, and I added tests for the organisms that doesn't have any of the molecules or atoms.
